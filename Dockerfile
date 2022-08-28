@@ -1,7 +1,6 @@
 FROM fedora:36
 
-RUN dnf install -y epel-release && \
-	dnf install -y openvpn unzip net-tools iptables && \
+RUN dnf install -y openvpn unzip net-tools iptables iproute && \
 	mkdir /pia && \
 	curl -sS "https://www.privateinternetaccess.com/openvpn/openvpn-strong.zip" -o /strong.zip && \
 	unzip -q /strong.zip -d /pia/strong && \
