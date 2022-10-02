@@ -1,7 +1,5 @@
-[![logo](https://www.privateinternetaccess.com/assets/PIALogo2x-0d1e1094ac909ea4c93df06e2da3db4ee8a73d8b2770f0f7d768a8603c62a82f.png)](https://www.privateinternetaccess.com)
-
 # Private Internet Access
-A Fedora Docker container for connecting to the PIA servers using OpenVPN, based on [colinherbert/pia-openvpn](https://hub.docker.com/r/colinhebert/pia-openvpn/)
+A Fedora Docker container for connecting to the PIA servers using OpenVPN, based on [ItsDaSpecialK/docker-openvpn](https://bitbucket.org/ItsDaSpecialK/docker-openvpn/src/master/) and [colinherbert/pia-openvpn](https://hub.docker.com/r/colinhebert/pia-openvpn/)
 Has a firewall/killswitch configured, so your information cannot be leaked if the vpn connection fails.
 
 ## Improvements
