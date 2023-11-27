@@ -1,4 +1,4 @@
-FROM fedora:39
+FROM fedora
 
 RUN dnf install -y openvpn unzip net-tools iptables iproute && \
 	mkdir /pia && \
